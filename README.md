@@ -26,6 +26,14 @@ p et.to_s
 p et.hour
 p et.min
 p et.sec
+
+p et.next_occurrence()
+p et.next_occurrence(time: Time.now)
+p et.next_occurrence(time: Time.now, count: 2)
+
+p et.last_occurrence()
+p et.last_occurrence(time: Time.now)
+p et.last_occurrence(time: Time.now, count: 2)
 ```
 
 ## Development
